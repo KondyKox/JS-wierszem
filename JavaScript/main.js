@@ -11,7 +11,21 @@ function saveToFile() {
         console.log("Oto twoje 'arcydzieło':");
         console.log(interpretacja);
 
-        //FileSystem.writeFileSync("TwojaInterpretacja.txt", interpretacja);
+        let blob = new Blob([interpretacja], {
+            type: "text/plain;charset=utf-8"
+        });
+        saveAs(blob, "TwojaInterpretacja.txt");
+
+        alert("ZAPISANO!!!");
     }
 
+    else {
+        console.log("Ale weź coś napisz najpierw...");
+    }
+
+}
+
+function getVotes() {
+    let kondi = document.getElementById("kondi");
+    let mickiewicz = document.getElementById("mickiewicz");
 }
