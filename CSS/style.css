@@ -1,0 +1,135 @@
+body {
+    font-family: 'Oleo Script Swash Caps';
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+    background-color: #070606;
+    color: white;
+}
+
+/* IDs */
+
+#header {
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+
+#left {
+    float: left;
+    height: 600px;
+}
+
+#right {
+    float: right;
+    height: 600px;
+}
+
+#right h2 {
+    margin-bottom: 30px;
+}
+
+#footer {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#zapisz {
+    margin-top: 20px;
+    width: 625px;
+}
+
+/* CLASSES */
+
+.comment {
+    font-size: 20px;
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #f02753;
+    border-radius: 10px;
+    float: left;
+}
+
+.avatar {
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px solid #f02753;
+    margin-top: 20px;
+}
+
+.glos {
+    margin: 50px;
+    transition: all .3s ease-in-out;
+}
+.glos:hover {
+    cursor: pointer;
+    width: 450px;
+    height: 450px;
+    margin: 70px;
+    border-color: #b30000;
+    border-width: 5px;
+}
+
+.przycisk {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 70px;
+    width: 500px;
+    background-color: #070606;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #f02753;
+    transition: all .3s ease-in-out;
+}
+.przycisk:hover {
+    cursor: pointer;
+    background-color: #f02753;
+    background-position: 100% 0;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.50em);
+}
+
+/* TAGS */
+
+img {
+    border-radius: 10px;
+    border: 1px solid #f02753;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 400px;
+    width: 600px;
+    background-color: #f64c72;
+    color:white;
+    resize: none;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
