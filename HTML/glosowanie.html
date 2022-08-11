@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps">
     <link rel="stylesheet" href="../CSS/style.css">
     <script src="../JavaScript/main.js"></script>
-    <script src="../JavaScript/package-lock.json"></script>
-    <script src="../JavaScript/package.json"></script>
-    <script src="../JavaScript/bower.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/eligrey/FileSaver.js/5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2/FileSaver.min.js"></script>
 </head>
 <body>
     <div id="header">
@@ -19,11 +18,11 @@
     </div>
 
     <div id="left">
-        <img src="../Grafiki/kondi.jpg" alt="Kondi 'Mega Koks'"  width="500" height="500" class="glos">
+        <img src="../Grafiki/kondi.jpg" alt="Kondi 'Mega Koks'"  width="500" height="500" class="glos" id="kondi" onclick="getVotes()">
     </div>
 
     <div id="right">
-        <img src="../Grafiki/mickiewicz.jpg" alt="Adam 'Chuj, nie poeta' Mickiewicz"  width="500" height="500" class="glos">
+        <img src="../Grafiki/mickiewicz.jpg" alt="Adam 'Chuj, nie poeta' Mickiewicz"  width="500" height="500" class="glos" id="mickiewicz" onclick="getVotes()">
     </div>
 
     <div id="footer">
