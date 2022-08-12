@@ -45,6 +45,9 @@ function voteKondi() {
 
         voted = true;
     }
+    else {
+        alert("Już zagłosowano. Wypierdalaj!");
+    }
 }
 
 function voteMickiewicz() {
@@ -58,5 +61,8 @@ function voteMickiewicz() {
         alert("Adam 'Chuj, nie poeta' Mickiewicz");
 
         voted = true;
+    }
+    else {
+        alert("Już zagłosowano. Wypierdalaj!");
     }
 }
