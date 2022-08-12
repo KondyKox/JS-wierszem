@@ -8,12 +8,20 @@ body {
 }
 
 /* IDs */
+#container {
+    width: 100%;
+    position: relative;
+}
 
 #header {
     text-align: center;
     font-size: 25px;
     padding: 5px;
     margin-bottom: 40px;
+}
+
+#header h2 {
+    color: #f02753;
 }
 
 #left {
@@ -126,7 +134,7 @@ textarea {
 }
    
 ::-webkit-scrollbar-thumb {
-    background: red; 
+    background: #f02753; 
     border-radius: 10px;
 }
   
