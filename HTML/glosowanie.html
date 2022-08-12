@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps">
     <link rel="stylesheet" href="../CSS/style.css">
     <script src="../JavaScript/main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/eligrey/FileSaver.js/5ed507ef8aa53d8ecfea96d96bc7214cd2476fd2/FileSaver.min.js"></script>
 </head>
 <body>
-    <div id="header">
+    <div id="container"><div id="header">
         <h1>"Żwawa adaptacja stron WWW"</h1><hr>
-        <h2 style="color:#f02753;"><i>Zagłosuj na swojego ulubionego poetę!</i></h2>
-    </div>
+        <h2><i>Zagłosuj na swojego ulubionego poetę!</i></h2>
+        </div>
 
-    <div id="left">
-        <img src="../Grafiki/kondi.jpg" alt="Kondi 'Mega Koks'"  width="500" height="500" class="glos" id="kondi" onclick="getVotes()">
-    </div>
+        <div id="left">
+            <img src="../Grafiki/kondi.jpg" alt="Kondi 'Mega Koks'"  width="500" height="500" class="glos" id="kondi" onclick="voteKondi()">
+        </div>
 
-    <div id="right">
-        <img src="../Grafiki/mickiewicz.jpg" alt="Adam 'Chuj, nie poeta' Mickiewicz"  width="500" height="500" class="glos" id="mickiewicz" onclick="getVotes()">
-    </div>
+        <div id="right">
+            <img src="../Grafiki/mickiewicz.jpg" alt="Adam 'Chuj, nie poeta' Mickiewicz"  width="500" height="500" class="glos" id="mickiewicz" onclick="voteMickiewicz()">
+        </div>
 
-    <div id="footer">
-        <a href="../Inne/Żwawa adaptacja stron WWW.docx"><input type="submit" value="Pobierz tutaj" class="przycisk"></a>
-        <a href="index.html"><input type="submit" value="Powrót na stronę główną" class="przycisk"></a>
-        <a href="interpretacja.html"><input type="submit" value="Zinterpretuj wiersz" class="przycisk"></a>
+        <div id="footer">
+            <a href="../Inne/Żwawa adaptacja stron WWW.docx"><input type="submit" value="Pobierz tutaj" class="przycisk"></a>
+            <a href="index.html"><input type="submit" value="Powrót na stronę główną" class="przycisk"></a>
+            <a href="interpretacja.html"><input type="submit" value="Zinterpretuj wiersz" class="przycisk"></a>
+        </div>
     </div>
 </body>
 </html>
