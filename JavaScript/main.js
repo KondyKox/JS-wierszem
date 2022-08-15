@@ -33,15 +33,14 @@ let mickiewicz = document.getElementById("mickiewicz");
 
 let voted = false;
 
+kondi.addEventListener("click", function() { voteKondi(); });
+mickiewicz.addEventListener("click", function() { voteMickiewicz(); });
+
 function voteKondi() {   
     if (voted == false) {
-        // let kondiWygral = document.createElement("img");
-        // kondiWygral.src = "../Grafiki/kondiWygral.png";
+        $('#kondi').css("image: url('../Grafiki/kondiWygral.png');");
 
-        // let mickiewiczPrzegral = document.createElement("img");
-        // mickiewiczPrzegral.src = "../Grafiki/mickiewiczPrzegral.png";
-
-        alert("Kondi 'Mega Koks' wygrał!");
+        alert("Kondi 'Mega Koks' został najlepszym poetą w historii!");
 
         voted = true;
     }
@@ -58,7 +57,7 @@ function voteMickiewicz() {
         // let mickiewiczWygral = document.createElement("img");
         // mickiewiczWygral.src = "../Grafiki/mickiewiczWygral.png";
 
-        alert("Adam 'Chuj, nie poeta' Mickiewicz");
+        alert("Adam 'Chuj, nie poeta' Mickiewicz według ciebie wygrał.");
 
         voted = true;
     }
