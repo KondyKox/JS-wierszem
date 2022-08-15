@@ -15,7 +15,7 @@ body {
 
 #header {
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
     padding: 5px;
     margin-bottom: 40px;
 }
@@ -45,7 +45,7 @@ body {
     padding: 10px;
 }
 
-#zapisz {
+#save {
     margin-top: 20px;
     width: 625px;
 }
@@ -83,7 +83,7 @@ body {
     border-width: 5px;
 }
 
-.przycisk {
+.button {
     font-size: 30px;
     padding: 10px;
     margin-top: 70px;
@@ -94,7 +94,7 @@ body {
     border: 1px solid #f02753;
     transition: all .3s ease-in-out;
 }
-.przycisk:hover {
+.button:hover {
     cursor: pointer;
     background-color: #f02753;
     background-position: 100% 0;
